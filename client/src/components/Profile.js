@@ -9,7 +9,7 @@ class Profile extends Component {
         topShow: "Wicked",
         points: 10,
         characterMostLike: "Elphaba"
-      };
+      }; 
     
       revealPersona = query => {
           this.setState({ name: 'The Wizard' })
