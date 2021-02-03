@@ -9,6 +9,7 @@ function UserInfoCard(props) {
     return (
       <div class="card" style={backgroundStyle} id="border-madness">
         <div class="card-img-top">
+          <p>test</p>
           <img id="profileImage" alt={props.name} src={props.image} width="300px" height="400px"/>
         </div>
         <div class="card-body">
